@@ -1,0 +1,7 @@
+loguru==0.5.3
+Pillow==9.0.1
+requests==2.27.1
+tornado~=5.0.2
+aiofiles~=0.8.0
+openpyxl~=3.0.9
+tornado-swagger

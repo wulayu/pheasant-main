@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/pheasant-main.iml" filepath="$PROJECT_DIR$/.idea/pheasant-main.iml" />
+      <module fileurl="file://$USER_HOME$/jinanlongen/Hamster/output/rembg/.idea/rembg.iml" filepath="$USER_HOME$/jinanlongen/Hamster/output/rembg/.idea/rembg.iml" />
+    </modules>
+  </component>
+</project>

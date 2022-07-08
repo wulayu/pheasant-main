@@ -1,0 +1,86 @@
+{
+    "id": "小叮当13",
+    "type": "template",
+    "version": 1.0,
+    "description": "tbd",
+    "thumbnail": "templates/小叮当13/thumbnail.jpg",
+    "background": {
+        "type": "image",
+        "path": "templates/小叮当13/images/background.jpg",
+        "height": 800,
+        "width": 800,
+        "radii": null,
+        "corner": {
+            "enable": true
+        },
+        "border": {
+            "enable": true
+        },
+        "shadow": {
+            "enable": true
+        }
+    },
+    "sprites": {
+        "count": 2,
+        "list": [
+            {
+                "id": "sprite_1",
+                "height": 380,
+                "width": 380,
+                "radii": null,
+                "corner": {
+                    "enable": false
+                },
+                "border": {
+                    "enable": true,
+                    "color": "black",
+                    "width": 1
+                },
+                "shadow": {
+                    "enable": false,
+                    "iterations": "否",
+                    "border": 3,
+                    "offset_x": 3,
+                    "offset_y": 3,
+                    "shadow_color": "grey"
+                },
+                "rotate": 0,
+                "position": [
+                    10,
+                    10,
+                    390,
+                    390
+                ]
+            },
+            {
+                "id": "sprite_2",
+                "height": 380,
+                "width": 380,
+                "radii": null,
+                "corner": {
+                    "enable": false
+                },
+                "border": {
+                    "enable": true,
+                    "color": "black",
+                    "width": 1
+                },
+                "shadow": {
+                    "enable": false,
+                    "iterations": "否",
+                    "border": 3,
+                    "offset_x": 3,
+                    "offset_y": 3,
+                    "shadow_color": "grey"
+                },
+                "rotate": 0,
+                "position": [
+                    10,
+                    410,
+                    390,
+                    790
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "id": "sns1",
+    "type": "template",
+    "version": 1.0,
+    "description": "tbd",
+    "thumbnail": "templates/sns1/thumbnail.jpg",
+    "background": {
+        "type": "image",
+        "path": "templates/sns1/images/background.jpg",
+        "height": 800,
+        "width": 800,
+        "radii": null,
+        "corner": {
+            "enable": true
+        },
+        "border": {
+            "enable": true
+        },
+        "shadow": {
+            "enable": true
+        }
+    },
+    "sprites": {
+        "count": 2,
+        "list": [
+            {
+                "id": "sprite_1",
+                "height": 340,
+                "width": 340,
+                "radii": null,
+                "corner": {
+                    "enable": false
+                },
+                "border": {
+                    "enable": true,
+                    "color": "black",
+                    "width": 1
+                },
+                "shadow": {
+                    "enable": false,
+                    "iterations": "否",
+                    "border": 3,
+                    "offset_x": 3,
+                    "offset_y": 3,
+                    "shadow_color": "grey"
+                },
+                "rotate": 0,
+                "position": [
+                    49,
+                    374,
+                    389,
+                    714
+                ]
+            },
+            {
+                "id": "sprite_2",
+                "height": 340,
+                "width": 340,
+                "radii": null,
+                "corner": {
+                    "enable": false
+                },
+                "border": {
+                    "enable": true,
+                    "color": "black",
+                    "width": 1
+                },
+                "shadow": {
+                    "enable": false,
+                    "iterations": "否",
+                    "border": 3,
+                    "offset_x": 3,
+                    "offset_y": 3,
+                    "shadow_color": "grey"
+                },
+                "rotate": 0,
+                "position": [
+                    413,
+                    374,
+                    753,
+                    714
+                ]
+            }
+        ]
+    }
+}

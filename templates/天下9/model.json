@@ -1,0 +1,57 @@
+{
+    "id": "天下9",
+    "type": "template",
+    "version": 1.0,
+    "description": "tbd",
+    "thumbnail": "templates/天下9/thumbnail.jpg",
+    "background": {
+        "type": "image",
+        "path": "templates/天下9/images/background.jpg",
+        "height": 800,
+        "width": 800,
+        "radii": null,
+        "corner": {
+            "enable": true
+        },
+        "border": {
+            "enable": true
+        },
+        "shadow": {
+            "enable": true
+        }
+    },
+    "sprites": {
+        "count": 1,
+        "list": [
+            {
+                "id": "sprite_1",
+                "height": 550,
+                "width": 550,
+                "radii": 15,
+                "corner": {
+                    "enable": true
+                },
+                "border": {
+                    "enable": true,
+                    "color": "black",
+                    "width": 1
+                },
+                "shadow": {
+                    "enable": true,
+                    "iterations": 3,
+                    "border": 3,
+                    "offset_x": 3,
+                    "offset_y": 3,
+                    "shadow_color": "grey"
+                },
+                "rotate": 0,
+                "position": [
+                    125,
+                    30,
+                    675,
+                    580
+                ]
+            }
+        ]
+    }
+}

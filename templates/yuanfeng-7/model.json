@@ -1,0 +1,144 @@
+{
+    "id": "yuanfeng-7",
+    "type": "template",
+    "version": 1.0,
+    "description": "tbd",
+    "thumbnail": "templates/yuanfeng-7/thumbnail.jpg",
+    "background": {
+        "type": "image",
+        "path": "templates/yuanfeng-7/images/background.jpg",
+        "height": 800,
+        "width": 800,
+        "radii": null,
+        "corner": {
+            "enable": false
+        },
+        "border": {
+            "enable": false
+        },
+        "shadow": {
+            "enable": false
+        }
+    },
+    "sprites": {
+        "count": 4,
+        "list": [
+            {
+                "id": "sprite_1",
+                "height": 380,
+                "width": 380,
+                "radii": 25,
+                "corner": {
+                    "enable": true
+                },
+                "border": {
+                    "enable": false,
+                    "color": "black",
+                    "width": 1
+                },
+                "shadow": {
+                    "enable": false,
+                    "iterations": 3,
+                    "border": 3,
+                    "offset_x": 3,
+                    "offset_y": 3,
+                    "shadow_color": "grey"
+                },
+                "rotate": 0,
+                "position": [
+                    15,
+                    15,
+                    395,
+                    395
+                ]
+            },
+            {
+                "id": "sprite_2",
+                "height": 380,
+                "width": 380,
+                "radii": 25,
+                "corner": {
+                    "enable": true
+                },
+                "border": {
+                    "enable": false,
+                    "color": "black",
+                    "width": 1
+                },
+                "shadow": {
+                    "enable": false,
+                    "iterations": 3,
+                    "border": 3,
+                    "offset_x": 3,
+                    "offset_y": 3,
+                    "shadow_color": "grey"
+                },
+                "rotate": 0,
+                "position": [
+                    405,
+                    15,
+                    785,
+                    395
+                ]
+            },
+            {
+                "id": "sprite_3",
+                "height": 380,
+                "width": 380,
+                "radii": 25,
+                "corner": {
+                    "enable": true
+                },
+                "border": {
+                    "enable": false,
+                    "color": "black",
+                    "width": 1
+                },
+                "shadow": {
+                    "enable": false,
+                    "iterations": 3,
+                    "border": 3,
+                    "offset_x": 3,
+                    "offset_y": 3,
+                    "shadow_color": "grey"
+                },
+                "rotate": 0,
+                "position": [
+                    15,
+                    405,
+                    395,
+                    785
+                ]
+            },
+            {
+                "id": "sprite_4",
+                "height": 380,
+                "width": 380,
+                "radii": 25,
+                "corner": {
+                    "enable": true
+                },
+                "border": {
+                    "enable": false,
+                    "color": "black",
+                    "width": 1
+                },
+                "shadow": {
+                    "enable": false,
+                    "iterations": 3,
+                    "border": 3,
+                    "offset_x": 3,
+                    "offset_y": 3,
+                    "shadow_color": "grey"
+                },
+                "rotate": 0,
+                "position": [
+                    405,
+                    405,
+                    785,
+                    785
+                ]
+            }
+        ]
+    }
+}

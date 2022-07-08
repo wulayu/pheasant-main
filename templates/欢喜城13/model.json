@@ -1,0 +1,86 @@
+{
+    "id": "欢喜城13",
+    "type": "template",
+    "version": 1.0,
+    "description": "tbd",
+    "thumbnail": "templates/欢喜城13/thumbnail.jpg",
+    "background": {
+        "type": "image",
+        "path": "templates/欢喜城13/images/background.jpg",
+        "height": 800,
+        "width": 800,
+        "radii": null,
+        "corner": {
+            "enable": true
+        },
+        "border": {
+            "enable": true
+        },
+        "shadow": {
+            "enable": true
+        }
+    },
+    "sprites": {
+        "count": 2,
+        "list": [
+            {
+                "id": "sprite_1",
+                "height": 380,
+                "width": 380,
+                "radii": 15,
+                "corner": {
+                    "enable": true
+                },
+                "border": {
+                    "enable": true,
+                    "color": "black",
+                    "width": 1
+                },
+                "shadow": {
+                    "enable": true,
+                    "iterations": 3,
+                    "border": 3,
+                    "offset_x": 3,
+                    "offset_y": 3,
+                    "shadow_color": "grey"
+                },
+                "rotate": 0,
+                "position": [
+                    15,
+                    15,
+                    395,
+                    395
+                ]
+            },
+            {
+                "id": "sprite_2",
+                "height": 380,
+                "width": 380,
+                "radii": 15,
+                "corner": {
+                    "enable": true
+                },
+                "border": {
+                    "enable": true,
+                    "color": "black",
+                    "width": 1
+                },
+                "shadow": {
+                    "enable": true,
+                    "iterations": 3,
+                    "border": 3,
+                    "offset_x": 3,
+                    "offset_y": 3,
+                    "shadow_color": "grey"
+                },
+                "rotate": 0,
+                "position": [
+                    15,
+                    405,
+                    395,
+                    785
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,144 @@
+{
+    "id": "spc6",
+    "type": "template",
+    "version": 1.0,
+    "description": "tbd",
+    "thumbnail": "templates/spc6/thumbnail.jpg",
+    "background": {
+        "type": "image",
+        "path": "templates/spc6/images/background.jpg",
+        "height": 800,
+        "width": 800,
+        "radii": null,
+        "corner": {
+            "enable": false
+        },
+        "border": {
+            "enable": false
+        },
+        "shadow": {
+            "enable": false
+        }
+    },
+    "sprites": {
+        "count": 4,
+        "list": [
+            {
+                "id": "sprite_1",
+                "height": 375,
+                "width": 375,
+                "radii": null,
+                "corner": {
+                    "enable": false
+                },
+                "border": {
+                    "enable": false,
+                    "color": "black",
+                    "width": 1
+                },
+                "shadow": {
+                    "enable": false,
+                    "iterations": "否",
+                    "border": 3,
+                    "offset_x": 3,
+                    "offset_y": 3,
+                    "shadow_color": "grey"
+                },
+                "rotate": 0,
+                "position": [
+                    20,
+                    20,
+                    395,
+                    395
+                ]
+            },
+            {
+                "id": "sprite_2",
+                "height": 375,
+                "width": 375,
+                "radii": null,
+                "corner": {
+                    "enable": false
+                },
+                "border": {
+                    "enable": false,
+                    "color": "black",
+                    "width": 1
+                },
+                "shadow": {
+                    "enable": false,
+                    "iterations": "否",
+                    "border": 3,
+                    "offset_x": 3,
+                    "offset_y": 3,
+                    "shadow_color": "grey"
+                },
+                "rotate": 0,
+                "position": [
+                    405,
+                    20,
+                    780,
+                    395
+                ]
+            },
+            {
+                "id": "sprite_3",
+                "height": 375,
+                "width": 375,
+                "radii": null,
+                "corner": {
+                    "enable": false
+                },
+                "border": {
+                    "enable": false,
+                    "color": "black",
+                    "width": 1
+                },
+                "shadow": {
+                    "enable": false,
+                    "iterations": "否",
+                    "border": 3,
+                    "offset_x": 3,
+                    "offset_y": 3,
+                    "shadow_color": "grey"
+                },
+                "rotate": 0,
+                "position": [
+                    20,
+                    405,
+                    395,
+                    780
+                ]
+            },
+            {
+                "id": "sprite_4",
+                "height": 375,
+                "width": 375,
+                "radii": null,
+                "corner": {
+                    "enable": false
+                },
+                "border": {
+                    "enable": false,
+                    "color": "black",
+                    "width": 1
+                },
+                "shadow": {
+                    "enable": false,
+                    "iterations": "否",
+                    "border": 3,
+                    "offset_x": 3,
+                    "offset_y": 3,
+                    "shadow_color": "grey"
+                },
+                "rotate": 0,
+                "position": [
+                    405,
+                    405,
+                    780,
+                    780
+                ]
+            }
+        ]
+    }
+}

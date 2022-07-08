@@ -1,0 +1,144 @@
+{
+    "id": "太阳10",
+    "type": "template",
+    "version": 1.0,
+    "description": "tbd",
+    "thumbnail": "templates/太阳10/thumbnail.jpg",
+    "background": {
+        "type": "image",
+        "path": "templates/太阳10/images/background.jpg",
+        "height": 800,
+        "width": 800,
+        "radii": null,
+        "corner": {
+            "enable": true
+        },
+        "border": {
+            "enable": true
+        },
+        "shadow": {
+            "enable": true
+        }
+    },
+    "sprites": {
+        "count": 4,
+        "list": [
+            {
+                "id": "sprite_1",
+                "height": 368,
+                "width": 368,
+                "radii": null,
+                "corner": {
+                    "enable": false
+                },
+                "border": {
+                    "enable": true,
+                    "color": "black",
+                    "width": 1
+                },
+                "shadow": {
+                    "enable": false,
+                    "iterations": "否",
+                    "border": 3,
+                    "offset_x": 3,
+                    "offset_y": 3,
+                    "shadow_color": "grey"
+                },
+                "rotate": 0,
+                "position": [
+                    29,
+                    28,
+                    397,
+                    396
+                ]
+            },
+            {
+                "id": "sprite_2",
+                "height": 368,
+                "width": 368,
+                "radii": null,
+                "corner": {
+                    "enable": false
+                },
+                "border": {
+                    "enable": true,
+                    "color": "black",
+                    "width": 1
+                },
+                "shadow": {
+                    "enable": false,
+                    "iterations": "否",
+                    "border": 3,
+                    "offset_x": 3,
+                    "offset_y": 3,
+                    "shadow_color": "grey"
+                },
+                "rotate": 0,
+                "position": [
+                    406,
+                    28,
+                    774,
+                    396
+                ]
+            },
+            {
+                "id": "sprite_3",
+                "height": 368,
+                "width": 368,
+                "radii": null,
+                "corner": {
+                    "enable": false
+                },
+                "border": {
+                    "enable": true,
+                    "color": "black",
+                    "width": 1
+                },
+                "shadow": {
+                    "enable": false,
+                    "iterations": "否",
+                    "border": 3,
+                    "offset_x": 3,
+                    "offset_y": 3,
+                    "shadow_color": "grey"
+                },
+                "rotate": 0,
+                "position": [
+                    29,
+                    408,
+                    397,
+                    776
+                ]
+            },
+            {
+                "id": "sprite_4",
+                "height": 368,
+                "width": 368,
+                "radii": null,
+                "corner": {
+                    "enable": false
+                },
+                "border": {
+                    "enable": true,
+                    "color": "black",
+                    "width": 1
+                },
+                "shadow": {
+                    "enable": false,
+                    "iterations": "否",
+                    "border": 3,
+                    "offset_x": 3,
+                    "offset_y": 3,
+                    "shadow_color": "grey"
+                },
+                "rotate": 0,
+                "position": [
+                    406,
+                    408,
+                    774,
+                    776
+                ]
+            }
+        ]
+    }
+}
