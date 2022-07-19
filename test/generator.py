@@ -11,7 +11,7 @@ out_path = '../output/'
 box_a = ()
 box_b = ()
 source_dir = os.listdir(source)
-source_dir.remove('.idea')
+# source_dir.remove('.idea')
 source_dir.sort()
 total_time = 0
 if not os.path.isdir(out_path):
@@ -19,7 +19,8 @@ if not os.path.isdir(out_path):
 
 for index, file_name in enumerate(source_dir):
     time_start = time.time()
-    base_img = Image.open(os.path.join(base_source, 'background.jpg'))
+
+    base_img = Image.open(os.path.join(base_source, 'background.jpg'))  # 打开背景图
 
     with open(os.path.join(box_source, 'model.json'), 'r') as model:
         try:
@@ -57,5 +58,5 @@ for index, file_name in enumerate(source_dir):
     print(input_path_b)
     print(output_path)
     print(str(index + 1) + '/' + str(len(source_dir)))
-    print(index + 1, ' time cost', Decimal(time_end - time_start).quantize(Decimal("0.00")), ' s', '\n')
+    print(index + 1, 'time cost', Decimal(time_end - time_start).quantize(Decimal("0.00")), ' s', '\n')
     total_time += time_end - time_start
