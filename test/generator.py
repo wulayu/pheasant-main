@@ -22,6 +22,7 @@ for index, file_name in enumerate(source_dir):
 
     base_img = Image.open(os.path.join(base_source, 'background.jpg'))  # 打开背景图
 
+    '''读取背景图的json文件，确定两个box的参数'''
     with open(os.path.join(box_source, 'model.json'), 'r') as model:
         try:
             box_json = json.load(model)
@@ -30,6 +31,7 @@ for index, file_name in enumerate(source_dir):
     box_a = box_json['sprites']['list'][0]['position']
     box_b = box_json['sprites']['list'][1]['position']
 
+    '''命名两张被嵌入图，判断是否会越界'''
     input_path_a = file_name
     x_a = input_path_a.rsplit(".", 1)
     if index + 1 == len(source_dir):
@@ -39,6 +41,7 @@ for index, file_name in enumerate(source_dir):
     x_b = input_path_b.rsplit(".", 1)
     output_path = 'output_' + str(index) + '.png'
 
+    '''分别将两张被嵌入图嵌入box_a和box_b'''
     tmp_img_a = Image.open(os.path.join(source, input_path_a))
     region_a = tmp_img_a
     region_a = region_a.resize((box_a[2] - box_a[0], box_a[3] - box_a[1]))
@@ -51,8 +54,10 @@ for index, file_name in enumerate(source_dir):
     r_b, g_b, b_b, a_b = region_b.split()
     base_img.paste(region_b, box_b, mask=a_b)
 
+    '''保存，记录运行时间'''
     base_img.save(os.path.join(out_path, output_path), format='png')
     # base_img.show()
+
     time_end = time.time()
     print(input_path_a)
     print(input_path_b)
